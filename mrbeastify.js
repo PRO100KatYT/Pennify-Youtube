@@ -65,7 +65,7 @@ function checkImageExistence(index = 1) {
     .catch((error) => { // The function encountered a missing image. Start applying overlays
       setInterval(applyOverlayToThumbnails, 100);
       console.log(
-        "MrBeastify Loaded Successfully, " + (index - 1) + " images detected."
+        "Pennify Loaded Successfully, " + (index - 1) + " images detected."
       );
     });
 }
